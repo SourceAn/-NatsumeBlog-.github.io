@@ -34,40 +34,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客更新日志</title>
-    <url>/2024/09/19/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
-    <content><![CDATA[<h1 id="博客更新日志"><a href="#博客更新日志" class="headerlink" title="博客更新日志"></a>博客更新日志</h1><h2 id="2024年09日19日"><a href="#2024年09日19日" class="headerlink" title="2024年09日19日"></a>2024年09日19日</h2><p>​	跟着CSDN发布博客的大佬的帖子进行照片显示和云同步。</p>
-<p>​	[Typora + Github + 腾讯云, 如何优雅地完成文档编辑与云同步?](<a href="https://blog.csdn.net/weixin_44539199/article/details/106608302">Typora + Github + 腾讯云, 如何优雅地完成文档编辑与云同步?_typora同步-CSDN博客</a>)</p>
-<p>​	大佬原帖链接附上。</p>
-<p>​	第一步的Typora安装昨天已经安装过了，这是个收费软件，使用时需要激活。</p>
-<p>​	然后我跟着大佬的步骤进行<strong>Github文字同步</strong>但是我不太清楚这一步为什么还要新建一个仓库。建立远程仓库的过程不再赘述，但是存在一个问题。大佬的文章是在2023年发表的，24年的时候Github的仓库主要分支是main，而大佬的是master，虽然有些不同，但是还是能正常运行的。</p>
-<p>​	图片内显示我这里有两个主要分支，这是因为昨天用另一个佬的方法使用hexo生成了静态的博客，那个方法自己设置了配置为main。</p>
-<p>​		在<strong>关联远程仓库</strong>之前需要<strong>创建本地仓库</strong>，需要在项目目录中Shift右击打开<strong>Powershell</strong></p>
-<p>​		输入<code>git init</code> 并执行</p>
-<p>​		结果是在目录下创建一个名为.<strong>git</strong>的文件夹</p>
-<p>​		之后继续在Powershell中执行 <code>New-Item .gitignore</code></p>
-<p>​		然后佬说要<strong>添加过滤规则</strong>，过滤掉不需要上传的文件。</p>
-<p>​		关联远程仓库，输入代码 <code>git remote add origin git@github.com:[githubID]/[repositoryName].git</code></p>
-<p>​		可能会需要输入账号密码，昨天在ssh以后我的这一步可以直接跳过。</p>
-<p>​		关联命令执行后，使用代码 <code>git remote -v</code> 查询是否完成。</p>
-<p>​		通过依次执行：</p>
-<p>​			<code>git add .</code></p>
-<p>​			<code>git commit -m &quot;some description&quot;</code></p>
-<p>​			<code>git push -u origin master</code></p>
-<p>​		就能<strong>将本地文件同步到远程</strong>。</p>
-<p>​		简略步骤就说到这里，接下来介绍腾讯云cos在Picgo中的配置问题。</p>
-<p>​	我遇到了这个BUG</p>
-<p>​	这个BUG的解决办法，我遇到的是把Picgo中的所有配置都重新输入一遍，这样能避免空格存在导致失误。</p>
-<p><del>这个更新日志写的有些简略，因为只睡了四个小时就起床整理这个玩楞，困死了。</del></p>
-]]></content>
-      <categories>
-        <category>日志</category>
-      </categories>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>考研日记第二天</title>
     <url>/2024/09/20/2024.09.19/</url>
     <content><![CDATA[<h1 id="2024年09月19日学习经验总结"><a href="#2024年09月19日学习经验总结" class="headerlink" title="2024年09月19日学习经验总结"></a>2024年09月19日学习经验总结</h1><h2 id="首先是大三学期上半学期的课程"><a href="#首先是大三学期上半学期的课程" class="headerlink" title="首先是大三学期上半学期的课程"></a>首先是大三学期上半学期的课程</h2><h3 id="单片机原理及接口技术"><a href="#单片机原理及接口技术" class="headerlink" title="单片机原理及接口技术"></a>单片机原理及接口技术</h3><p>​	代老师讲课就是要风趣幽默不少，很多举例也比较生动，但是老师的讲课过于率性，以至于没有按照教辅的顺序进行讲解，所以笔记什么的，都要少许多。</p>
@@ -105,10 +71,44 @@
 <p>​	<a href="https://www.bilibili.com/video/BV13ktEeNEoK/?spm_id_from=333.1007.top_right_bar_window_history.content.click">深度|| 隋末的乱世有多残酷？李世民接手了怎样的跌停大盘？</a></p>
 ]]></content>
       <categories>
-        <category>考研20</category>
+        <category>考研</category>
       </categories>
       <tags>
         <tag>考研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客更新日志</title>
+    <url>/2024/09/19/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<h1 id="博客更新日志"><a href="#博客更新日志" class="headerlink" title="博客更新日志"></a>博客更新日志</h1><h2 id="2024年09日19日"><a href="#2024年09日19日" class="headerlink" title="2024年09日19日"></a>2024年09日19日</h2><p>​	跟着CSDN发布博客的大佬的帖子进行照片显示和云同步。</p>
+<p>​	[Typora + Github + 腾讯云, 如何优雅地完成文档编辑与云同步?](<a href="https://blog.csdn.net/weixin_44539199/article/details/106608302">Typora + Github + 腾讯云, 如何优雅地完成文档编辑与云同步?_typora同步-CSDN博客</a>)</p>
+<p>​	大佬原帖链接附上。</p>
+<p>​	第一步的Typora安装昨天已经安装过了，这是个收费软件，使用时需要激活。</p>
+<p>​	然后我跟着大佬的步骤进行<strong>Github文字同步</strong>但是我不太清楚这一步为什么还要新建一个仓库。建立远程仓库的过程不再赘述，但是存在一个问题。大佬的文章是在2023年发表的，24年的时候Github的仓库主要分支是main，而大佬的是master，虽然有些不同，但是还是能正常运行的。</p>
+<p>​	图片内显示我这里有两个主要分支，这是因为昨天用另一个佬的方法使用hexo生成了静态的博客，那个方法自己设置了配置为main。</p>
+<p>​		在<strong>关联远程仓库</strong>之前需要<strong>创建本地仓库</strong>，需要在项目目录中Shift右击打开<strong>Powershell</strong></p>
+<p>​		输入<code>git init</code> 并执行</p>
+<p>​		结果是在目录下创建一个名为.<strong>git</strong>的文件夹</p>
+<p>​		之后继续在Powershell中执行 <code>New-Item .gitignore</code></p>
+<p>​		然后佬说要<strong>添加过滤规则</strong>，过滤掉不需要上传的文件。</p>
+<p>​		关联远程仓库，输入代码 <code>git remote add origin git@github.com:[githubID]/[repositoryName].git</code></p>
+<p>​		可能会需要输入账号密码，昨天在ssh以后我的这一步可以直接跳过。</p>
+<p>​		关联命令执行后，使用代码 <code>git remote -v</code> 查询是否完成。</p>
+<p>​		通过依次执行：</p>
+<p>​			<code>git add .</code></p>
+<p>​			<code>git commit -m &quot;some description&quot;</code></p>
+<p>​			<code>git push -u origin master</code></p>
+<p>​		就能<strong>将本地文件同步到远程</strong>。</p>
+<p>​		简略步骤就说到这里，接下来介绍腾讯云cos在Picgo中的配置问题。</p>
+<p>​	我遇到了这个BUG</p>
+<p>​	这个BUG的解决办法，我遇到的是把Picgo中的所有配置都重新输入一遍，这样能避免空格存在导致失误。</p>
+<p><del>这个更新日志写的有些简略，因为只睡了四个小时就起床整理这个玩楞，困死了。</del></p>
+]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
       </tags>
   </entry>
 </search>
