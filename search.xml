@@ -128,9 +128,20 @@
       </tags>
   </entry>
   <entry>
+    <title>hello-world</title>
+    <url>/2024/09/25/2024.09.24/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title></title>
     <url>/2024/09/25/HarmonyNext%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="Harmony-Next开发笔记"><a href="#Harmony-Next开发笔记" class="headerlink" title="Harmony Next开发笔记"></a>Harmony Next开发笔记</h1><h2 id="ArkTS（Stage模型）工程目录结构"><a href="#ArkTS（Stage模型）工程目录结构" class="headerlink" title="ArkTS（Stage模型）工程目录结构"></a>ArkTS（Stage模型）工程目录结构</h2><p><strong>AppScope &gt; app.json5</strong>：应用的全局配置信息</p>
+    <content><![CDATA[<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">title: HarmonyNext编程代码学习文档</span><br><span class="line">date: 2024-09-23 23:13:16</span><br><span class="line">tags:</span><br><span class="line">- HarmonyNext</span><br><span class="line">categories:</span><br><span class="line">- 编程</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h1 id="Harmony-Next开发笔记"><a href="#Harmony-Next开发笔记" class="headerlink" title="Harmony Next开发笔记"></a>Harmony Next开发笔记</h1><h2 id="ArkTS（Stage模型）工程目录结构"><a href="#ArkTS（Stage模型）工程目录结构" class="headerlink" title="ArkTS（Stage模型）工程目录结构"></a>ArkTS（Stage模型）工程目录结构</h2><p><strong>AppScope &gt; app.json5</strong>：应用的全局配置信息</p>
 <p><strong>entry</strong>：HarmonyOS工程模块，编译构建生成一个HAP包。</p>
 <p>​	<strong>src &gt; main &gt; ets</strong>：用于存放ArkTS源码。</p>
 <p>​	<strong>src &gt; main &gt; ets &gt; entryability</strong>：应用&#x2F;服务的入口。</p>
@@ -151,11 +162,6 @@
 <p>​	2、添加按钮</p>
 <p>​		在默认页面基础上，我们添加一个Button组件，作为按钮响应用户点击，从而实现跳转到另一个页面。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>hello-world</title>
-    <url>/2024/09/25/2024.09.24/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>博客更新日志</title>
