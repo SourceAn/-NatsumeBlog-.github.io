@@ -74,25 +74,6 @@
       </tags>
   </entry>
   <entry>
-    <title>考研日记第六天</title>
-    <url>/2024/09/25/2024.09.24/</url>
-    <content><![CDATA[<p>​	今天有些懈怠了，没看书没学习，但是每日保底任务却完成了，而且竟然还写了些代码写了点<strong>Python</strong>和<strong>HarmonyNext</strong>的代码。</p>
-<p>​	<strong>python</strong>的不足为道，而<strong>Harmony</strong>的代码专门写了个文档。</p>
-<p>​	博客又出问题了，首页卡了！</p>
-<p>​	难绷，现在是凌晨两点，我快猝死了！</p>
-<h1 id="每日清单"><a href="#每日清单" class="headerlink" title="每日清单"></a>每日清单</h1><p>每日练字打卡</p>
-<p><img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250206014.jpg" alt="a6258e7675a911e02bce0bd2ca5e3ce"></p>
-<p>每日单词打卡</p>
-<img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250207462.jpg" alt="84f1d8a3aae2b9eef742987a706cf3b" style="zoom:25%;" />
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>考研日记第三、四天</title>
     <url>/2024/09/21/2024.09.20/</url>
     <content><![CDATA[<h3 id="首先关于为什么没有更新"><a href="#首先关于为什么没有更新" class="headerlink" title="首先关于为什么没有更新"></a>首先关于为什么没有更新</h3><p>​	因为这两天感冒严重，头疼浑身疼，而且腾讯云COS提示我欠费了，让我缴费，在找解决方案，所以昨天与今天都无所事事，尤其是昨天，<del>在床上库库睡。</del></p>
@@ -116,6 +97,27 @@
       <tags>
         <tag>考研</tag>
         <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>考研日记第五天</title>
+    <url>/2024/09/23/2024.09.23/</url>
+    <content><![CDATA[<h1 id="每日任务清单"><a href="#每日任务清单" class="headerlink" title="每日任务清单"></a>每日任务清单</h1><p><img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250154338.jpg" alt="86accf49180b4bb0e57664471e6289d"></p>
+<p>​	今天的主要任务是把数据结构第一章绪论的部分完成，以及每日练字打卡，每日背单词进行下去。<del>中间缺的21号和22号就让他过去吧</del>。其实还还是因为那两天病得厉害，而且今天没有完成每日阅读一小时。</p>
+<p>​	铎儿的平板丢了，找了半天，累死累活。</p>
+<p>​	所以没有阅读，但是今天起的很早，洗了衣服和床单，早起很爽。</p>
+<p>​	任务截图四张拼一起是因为为了节省OSS的下行流量，要不然没用两天就欠费了，用不了就很难受。</p>
+<p>​	<del>反正今天又是没有代码的一天，好欸！</del></p>
+<p>​	今天倒是有些诗兴，写了首诗。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250154078.jpg" alt="2080976ca8592e5f421a7e44a739f0e"></p>
+<p>​	秋高天气爽，雨落消暑凉。<br>​	晨起梳洗罢，志气复高昂。</p>
+<p>​	</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
       </tags>
   </entry>
   <entry>
@@ -152,18 +154,16 @@
       </tags>
   </entry>
   <entry>
-    <title>考研日记第五天</title>
-    <url>/2024/09/23/2024.09.23/</url>
-    <content><![CDATA[<h1 id="每日任务清单"><a href="#每日任务清单" class="headerlink" title="每日任务清单"></a>每日任务清单</h1><p><img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250154338.jpg" alt="86accf49180b4bb0e57664471e6289d"></p>
-<p>​	今天的主要任务是把数据结构第一章绪论的部分完成，以及每日练字打卡，每日背单词进行下去。<del>中间缺的21号和22号就让他过去吧</del>。其实还还是因为那两天病得厉害，而且今天没有完成每日阅读一小时。</p>
-<p>​	铎儿的平板丢了，找了半天，累死累活。</p>
-<p>​	所以没有阅读，但是今天起的很早，洗了衣服和床单，早起很爽。</p>
-<p>​	任务截图四张拼一起是因为为了节省OSS的下行流量，要不然没用两天就欠费了，用不了就很难受。</p>
-<p>​	<del>反正今天又是没有代码的一天，好欸！</del></p>
-<p>​	今天倒是有些诗兴，写了首诗。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250154078.jpg" alt="2080976ca8592e5f421a7e44a739f0e"></p>
-<p>​	秋高天气爽，雨落消暑凉。<br>​	晨起梳洗罢，志气复高昂。</p>
-<p>​	</p>
+    <title>考研日记第六天</title>
+    <url>/2024/09/25/2024.09.24/</url>
+    <content><![CDATA[<p>​	今天有些懈怠了，没看书没学习，但是每日保底任务却完成了，而且竟然还写了些代码写了点<strong>Python</strong>和<strong>HarmonyNext</strong>的代码。</p>
+<p>​	<strong>python</strong>的不足为道，而<strong>Harmony</strong>的代码专门写了个文档。</p>
+<p>​	博客又出问题了，首页卡了！</p>
+<p>​	难绷，现在是凌晨两点，我快猝死了！</p>
+<h1 id="每日清单"><a href="#每日清单" class="headerlink" title="每日清单"></a>每日清单</h1><p>每日练字打卡</p>
+<p><img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250206014.jpg" alt="a6258e7675a911e02bce0bd2ca5e3ce"></p>
+<p>每日单词打卡</p>
+<img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250207462.jpg" alt="84f1d8a3aae2b9eef742987a706cf3b" style="zoom:25%;" />
 ]]></content>
       <categories>
         <category>考研</category>
