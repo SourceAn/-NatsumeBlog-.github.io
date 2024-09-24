@@ -6,7 +6,7 @@
   <link href="https://sourcean.github.io/atom.xml" rel="self"/>
   
   <link href="https://sourcean.github.io/"/>
-  <updated>2024-09-24T16:41:50.781Z</updated>
+  <updated>2024-09-24T18:03:55.226Z</updated>
   <id>https://sourcean.github.io/</id>
   
   <author>
@@ -17,15 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello-world</title>
+    <title>HarmonyNext编程代码学习文档</title>
+    <link href="https://sourcean.github.io/2024/09/25/HarmonyNext%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/"/>
+    <id>https://sourcean.github.io/2024/09/25/HarmonyNext%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</id>
+    <published>2024-09-24T18:03:13.000Z</published>
+    <updated>2024-09-24T18:03:55.226Z</updated>
+    
+    <content type="html"><![CDATA[<img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250142867.svg" style="zoom: 200%;" /><h1 id="Harmony-Next开发笔记"><a href="#Harmony-Next开发笔记" class="headerlink" title="Harmony Next开发笔记"></a>Harmony Next开发笔记</h1><h2 id="ArkTS（Stage模型）工程目录结构"><a href="#ArkTS（Stage模型）工程目录结构" class="headerlink" title="ArkTS（Stage模型）工程目录结构"></a>ArkTS（Stage模型）工程目录结构</h2><p><strong>AppScope &gt; app.json5</strong>：应用的全局配置信息</p><p><strong>entry</strong>：HarmonyOS工程模块，编译构建生成一个HAP包。</p><p>​<strong>src &gt; main &gt; ets</strong>：用于存放ArkTS源码。</p><p>​<strong>src &gt; main &gt; ets &gt; entryability</strong>：应用&#x2F;服务的入口。</p><p>​<strong>src &gt; main &gt; ets &gt; entrybackupability</strong>：应用提供扩展的备份恢复能力。</p><p>​<strong>src &gt; main &gt; ets &gt; pages</strong>：应用&#x2F;服务包含的页面。</p><p>​<strong>src &gt; main &gt; resources</strong>：用于存放应用&#x2F;服务所用到的资源文件，如图形、多媒体、字符串、布局文件等。</p><p>​<strong>src &gt; main &gt; module.json5</strong>：模块配置文件。主要包含HAP包的配置信息、应用&#x2F;服务在具体设备上的配置信息以及应用&#x2F;服务的全局配置信息。</p><p>​<strong>build-profile.json5</strong>：当前的模块信息 、编译信息配置项，包括buildOption、targets配置等。</p><p>​<strong>hvigorfile.ts</strong>：模块级编译构建任务脚本。</p><p>​<strong>obfuscation-rules.txt</strong>：混淆规则文件。混淆开启后，在使用Release模式进行编译时，会对代码进行编译、混淆及压缩处理，保护代码资产。</p><p>​<strong>oh-package.json5</strong>：用来描述包名、版本、入口文件（类型声明文件）和依赖项等信息。</p><p><strong>oh_modules</strong>：用于存放三方库依赖信息。</p><p><strong>build-profile.json5</strong>：工程级配置信息，包括签名signingConfigs、产品配置products等。其中products中可配置当前运行环境，默认为HarmonyOS。</p><p><strong>hvigorfile.ts</strong>：工程级编译构建任务脚本。</p><p><strong>oh-package.json5</strong>：主要用来描述全局配置，如：依赖覆盖（overrides）、依赖关系重写（overrideDependencyMap）和参数化配置（parameterFile）等。</p><h2 id="构建第一个代码"><a href="#构建第一个代码" class="headerlink" title="构建第一个代码"></a>构建第一个代码</h2><p>​针对本文中使用文本&#x2F;按钮来实现页面跳转&#x2F;返回的应用场景，页面均使用<strong>Row</strong>和<strong>Column</strong>组件来组建布局。对于更多复杂元素对齐的场景，可选择使用<strong>RelativeContainer</strong>组件进行布局。</p><p>​1、打开<strong>Index.ets</strong>文件</p><p>​2、添加按钮</p><p>​在默认页面基础上，我们添加一个Button组件，作为按钮响应用户点击，从而实现跳转到另一个页面。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250142867.svg&quot; style=&quot;zoom: 200%;&quot; /&gt;
+
+&lt;h1 id=&quot;Harmony-Next开发笔记&quot;&gt;&lt;a href=&quot;</summary>
+      
+    
+    
+    
+    <category term="编程" scheme="https://sourcean.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="HarmonyNext" scheme="https://sourcean.github.io/tags/HarmonyNext/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>考研日记第六天</title>
     <link href="https://sourcean.github.io/2024/09/25/2024.09.24/"/>
     <id>https://sourcean.github.io/2024/09/25/2024.09.24/</id>
     <published>2024-09-24T16:41:50.000Z</published>
-    <updated>2024-09-24T16:41:50.781Z</updated>
+    <updated>2024-09-24T18:10:22.462Z</updated>
+    
+    <content type="html"><![CDATA[<p>​今天有些懈怠了，没看书没学习，但是每日保底任务却完成了，而且竟然还写了些代码写了点<strong>Python</strong>和<strong>HarmonyNext</strong>的代码。</p><p>​<strong>python</strong>的不足为道，而<strong>Harmony</strong>的代码专门写了个文档。</p><p>​博客又出问题了，首页卡了！</p><p>​难绷，现在是凌晨两点，我快猝死了！</p><h1 id="每日清单"><a href="#每日清单" class="headerlink" title="每日清单"></a>每日清单</h1><p>每日练字打卡</p><p><img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250206014.jpg" alt="a6258e7675a911e02bce0bd2ca5e3ce"></p><p>每日单词打卡</p><img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250207462.jpg" alt="84f1d8a3aae2b9eef742987a706cf3b" style="zoom:25%;" />]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;​	今天有些懈怠了，没看书没学习，但是每日保底任务却完成了，而且竟然还写了些代码写了点&lt;strong&gt;Python&lt;/strong&gt;和&lt;strong&gt;HarmonyNext&lt;/strong&gt;的代码。&lt;/p&gt;
+&lt;p&gt;​	&lt;strong&gt;python&lt;/strong&gt;的不足为道</summary>
+      
     
     
     
+    <category term="考研" scheme="https://sourcean.github.io/categories/%E8%80%83%E7%A0%94/"/>
     
+    
+    <category term="考研" scheme="https://sourcean.github.io/tags/%E8%80%83%E7%A0%94/"/>
     
   </entry>
   
@@ -54,37 +92,11 @@
   </entry>
   
   <entry>
-    <title>HarmonyNext编程代码学习文档</title>
-    <link href="https://sourcean.github.io/2024/09/23/HarmonyNext%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/"/>
-    <id>https://sourcean.github.io/2024/09/23/HarmonyNext%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</id>
-    <published>2024-09-23T15:13:16.000Z</published>
-    <updated>2024-09-24T17:56:48.227Z</updated>
-    
-    <content type="html"><![CDATA[<img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250142867.svg" style="zoom: 200%;" /><h1 id="Harmony-Next开发笔记"><a href="#Harmony-Next开发笔记" class="headerlink" title="Harmony Next开发笔记"></a>Harmony Next开发笔记</h1><h2 id="ArkTS（Stage模型）工程目录结构"><a href="#ArkTS（Stage模型）工程目录结构" class="headerlink" title="ArkTS（Stage模型）工程目录结构"></a>ArkTS（Stage模型）工程目录结构</h2><p><strong>AppScope &gt; app.json5</strong>：应用的全局配置信息</p><p><strong>entry</strong>：HarmonyOS工程模块，编译构建生成一个HAP包。</p><p>​<strong>src &gt; main &gt; ets</strong>：用于存放ArkTS源码。</p><p>​<strong>src &gt; main &gt; ets &gt; entryability</strong>：应用&#x2F;服务的入口。</p><p>​<strong>src &gt; main &gt; ets &gt; entrybackupability</strong>：应用提供扩展的备份恢复能力。</p><p>​<strong>src &gt; main &gt; ets &gt; pages</strong>：应用&#x2F;服务包含的页面。</p><p>​<strong>src &gt; main &gt; resources</strong>：用于存放应用&#x2F;服务所用到的资源文件，如图形、多媒体、字符串、布局文件等。</p><p>​<strong>src &gt; main &gt; module.json5</strong>：模块配置文件。主要包含HAP包的配置信息、应用&#x2F;服务在具体设备上的配置信息以及应用&#x2F;服务的全局配置信息。</p><p>​<strong>build-profile.json5</strong>：当前的模块信息 、编译信息配置项，包括buildOption、targets配置等。</p><p>​<strong>hvigorfile.ts</strong>：模块级编译构建任务脚本。</p><p>​<strong>obfuscation-rules.txt</strong>：混淆规则文件。混淆开启后，在使用Release模式进行编译时，会对代码进行编译、混淆及压缩处理，保护代码资产。</p><p>​<strong>oh-package.json5</strong>：用来描述包名、版本、入口文件（类型声明文件）和依赖项等信息。</p><p><strong>oh_modules</strong>：用于存放三方库依赖信息。</p><p><strong>build-profile.json5</strong>：工程级配置信息，包括签名signingConfigs、产品配置products等。其中products中可配置当前运行环境，默认为HarmonyOS。</p><p><strong>hvigorfile.ts</strong>：工程级编译构建任务脚本。</p><p><strong>oh-package.json5</strong>：主要用来描述全局配置，如：依赖覆盖（overrides）、依赖关系重写（overrideDependencyMap）和参数化配置（parameterFile）等。</p><h2 id="构建第一个代码"><a href="#构建第一个代码" class="headerlink" title="构建第一个代码"></a>构建第一个代码</h2><p>​针对本文中使用文本&#x2F;按钮来实现页面跳转&#x2F;返回的应用场景，页面均使用<strong>Row</strong>和<strong>Column</strong>组件来组建布局。对于更多复杂元素对齐的场景，可选择使用<strong>RelativeContainer</strong>组件进行布局。</p><p>​1、打开<strong>Index.ets</strong>文件</p><p>​2、添加按钮</p><p>​在默认页面基础上，我们添加一个Button组件，作为按钮响应用户点击，从而实现跳转到另一个页面。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202409250142867.svg&quot; style=&quot;zoom: 200%;&quot; /&gt;
-
-&lt;h1 id=&quot;Harmony-Next开发笔记&quot;&gt;&lt;a href=&quot;</summary>
-      
-    
-    
-    
-    <category term="编程" scheme="https://sourcean.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="HarmonyNext" scheme="https://sourcean.github.io/tags/HarmonyNext/"/>
-    
-  </entry>
-  
-  <entry>
     <title>考研日记第三、四天</title>
     <link href="https://sourcean.github.io/2024/09/21/2024.09.20/"/>
     <id>https://sourcean.github.io/2024/09/21/2024.09.20/</id>
     <published>2024-09-21T12:44:10.000Z</published>
-    <updated>2024-09-21T12:52:32.754Z</updated>
+    <updated>2024-09-24T18:02:40.846Z</updated>
     
     <content type="html"><![CDATA[<h3 id="首先关于为什么没有更新"><a href="#首先关于为什么没有更新" class="headerlink" title="首先关于为什么没有更新"></a>首先关于为什么没有更新</h3><p>​因为这两天感冒严重，头疼浑身疼，而且腾讯云COS提示我欠费了，让我缴费，在找解决方案，所以昨天与今天都无所事事，尤其是昨天，<del>在床上库库睡。</del></p><p>​腾讯云的免费试用基础存储空间给的很多，但是下行流量只有1G，我的这个静态网站有600次请求访问，所以很快就欠费了，然后打算自己整个服务器，小小列了个配置清单。</p><h3 id="Nas搭建"><a href="#Nas搭建" class="headerlink" title="Nas搭建"></a>Nas搭建</h3><p>配置清单</p><p>​CPU E3 1230 V3 78R 闲鱼 包邮有硅脂</p><p>​主板 ESC精英H81H3 ITX 69R 闲鱼</p><p>​电源 蜗牛星际1U 150W电源 30R 闲鱼</p><p>​硬盘 西数蓝盘500G 50R两张 闲鱼</p><p>​机箱 巧美ITX 58.8R 拼多多</p><p>​内存 笔记本内存DDR3 8G*2 58R 拼多多</p><p>​散热 下压式散热 30R 闲鱼</p><p>总计：373.8R</p><p>​但是呢，这套配置由比较贵，整这个玩意儿也挺复杂，所以打算暂时用阿里云oss暂时替代。</p><p>​阿里云的存储实用是给了40G基础存储空间，2G的下行流量，应该能支撑到国庆回家组Nas，所以暂时就这样。</p><p>​为什么不买，首先阿里云的基础存储是40G&#x2F;9R&#x2F;年，但是下行流量100G一个月49R。买不起。</p>]]></content>
     
@@ -96,9 +108,7 @@
     
     
     
-    <category term="日志" scheme="https://sourcean.github.io/categories/%E6%97%A5%E5%BF%97/"/>
-    
-    <category term="考研" scheme="https://sourcean.github.io/categories/%E6%97%A5%E5%BF%97/%E8%80%83%E7%A0%94/"/>
+    <category term="考研" scheme="https://sourcean.github.io/categories/%E8%80%83%E7%A0%94/"/>
     
     
     <category term="考研" scheme="https://sourcean.github.io/tags/%E8%80%83%E7%A0%94/"/>
