@@ -6,7 +6,7 @@
   <link href="https://sourcean.github.io/atom.xml" rel="self"/>
   
   <link href="https://sourcean.github.io/"/>
-  <updated>2024-09-25T09:28:12.844Z</updated>
+  <updated>2024-10-10T05:10:30.621Z</updated>
   <id>https://sourcean.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://sourcean.github.io/2024/10/10/%E7%94%B5%E8%84%91%E9%85%8D%E7%BD%AE/"/>
+    <id>https://sourcean.github.io/2024/10/10/%E7%94%B5%E8%84%91%E9%85%8D%E7%BD%AE/</id>
+    <published>2024-10-10T05:10:30.510Z</published>
+    <updated>2024-10-10T05:10:30.621Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="电脑配置"><a href="#电脑配置" class="headerlink" title="电脑配置"></a>电脑配置</h1><p>主板 H81 126</p><p>CPU E31230V3 78</p><p>硬盘 500G*2 41</p><p>内存 DDR3 8G 53.5 </p><p>电源 1U全汉270W 49</p><p>散热 金钱豹1U 35</p><p>机箱 巧美冰淇凌Pro 62.8</p><p>U盘 金士顿8G 8.9</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;电脑配置&quot;&gt;&lt;a href=&quot;#电脑配置&quot; class=&quot;headerlink&quot; title=&quot;电脑配置&quot;&gt;&lt;/a&gt;电脑配置&lt;/h1&gt;&lt;p&gt;主板 H81 126&lt;/p&gt;
+&lt;p&gt;CPU E31230V3 78&lt;/p&gt;
+&lt;p&gt;硬盘 500G*2 41&lt;/p&gt;
+&lt;p&gt;内</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>HarmonyNext编程代码学习文档</title>
